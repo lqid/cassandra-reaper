@@ -75,6 +75,11 @@ public class ReaperApplication extends Application<ReaperApplicationConfiguratio
     new ReaperApplication().run(args);
   }
 
+  public static void stop (String[] args) {
+    LOG.info("Stopping ReaperApplication");
+    System.exit(0);
+  }
+
   @Override
   public String getName() {
     return "cassandra-reaper";
