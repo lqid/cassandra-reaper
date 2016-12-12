@@ -1,7 +1,10 @@
 Reaper for Apache Cassandra
 ================
 
-*Note: This repo is a fork from the original Reaper project, created by the awesome folks at Spotify.  The WebUI has been merged in with support for incremental repairs added.* 
+*Notes on this fork:*
+
+* This repo is a fork of The Last Pickle's release, integrating WebUI and support for incremental repairs.
+* In addition, it includes a `stop` method so that it may be wrapped as a Windows Service with Apache Commons Daemon.
 
 Reaper is a centralized, stateful, and highly configurable tool for running Apache Cassandra
 repairs against single or multi-site clusters.
